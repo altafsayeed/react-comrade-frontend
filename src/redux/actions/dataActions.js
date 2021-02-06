@@ -55,7 +55,7 @@ export const postPing = (newPing) => (dispatch) => {
         type: POST_PING,
         payload: res.data,
       });
-      dispatch({ clearErrors });
+      dispatch(clearErrors());
     })
     .catch((err) => {
       dispatch({

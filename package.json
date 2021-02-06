@@ -1,5 +1,4 @@
 {
-  "homepage": "http://altafsayeed.github.io/react-deploy",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -34,8 +33,6 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
